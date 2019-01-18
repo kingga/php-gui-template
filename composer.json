@@ -1,0 +1,22 @@
+{
+    "name": "kingga/gui-mvc",
+    "type": "template",
+    "license": "MIT",
+    "description": "This is the base template used for my GUI MVC.",
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^3.1",
+        "kingga/gui": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kingga/gui"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes/"
+        }
+    }
+}

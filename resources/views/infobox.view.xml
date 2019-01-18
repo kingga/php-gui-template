@@ -1,0 +1,10 @@
+<use class="Gui\Components\Div"></use>
+<use class="Gui\Components\Button"></use>
+<use class="Gui\Components\Label"></use>
+<Window width="600" height="350" title="Application Information">
+    <Div width="400" height="250" top="50" left="100">
+        <Label left="10" top="10">Application: {{ $name }}</Label>
+        <Label left="10" top="30">Version: {{ $version }}</Label>
+        <Button top="200" align="center" width="150" height="30" onclick="closeApplication">Close Application</Button>
+    </Div>
+</Window>
