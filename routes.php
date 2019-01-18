@@ -24,7 +24,7 @@ use Classes\Controllers\MainController;
  * $group->group((new RouteGroup)->create(function () {}));
  */
 $router->create(function (RouteGroup $group) {
-    $group->route('main', 'MainController@showMainWindow');
+    $group->route('main', 'MainController@main');
     $group->route('show_info_modal', [MainController::class, 'showInfoModal']);
     $group->route('closeApplication', function (Request $request) {
         $request->getApp()->terminate();
