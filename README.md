@@ -29,6 +29,15 @@ ___
 ## Overview
 I'm not going to go into detail about MVC's as I expect you have some knowledge about them but I will give you a very simple idea of what they are.
 
+### Helpers
+This boiler plate comes with a command line tool which allows you to quickly make things with your application. One command you may be familiar with already is the `build` command. Some other useful commands include:
+
+```bash
+# NOTE: Long descriptions are optional.
+php gtool make controller ControllerName "Long Description"
+php gtool make model ModelName "Long Description"
+```
+
 ### M - Model
 **The layer between the application and the database**
 To create a model, navigate to the Classes/Models directory and create a new file, ideally this should be named after the table. E.g. AppInfo becomes app_info. Add this basic structure to the file:

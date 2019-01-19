@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabrielrcouto/php-gui.git",
-                "reference": "352d2d69079ed6260d9fde15d50d1829ff5350a3"
+                "reference": "8ec32ce9eb88c501b59093fadb30cb241c90d3b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabrielrcouto/php-gui/zipball/352d2d69079ed6260d9fde15d50d1829ff5350a3",
-                "reference": "352d2d69079ed6260d9fde15d50d1829ff5350a3",
+                "url": "https://api.github.com/repos/gabrielrcouto/php-gui/zipball/8ec32ce9eb88c501b59093fadb30cb241c90d3b4",
+                "reference": "8ec32ce9eb88c501b59093fadb30cb241c90d3b4",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "interface",
                 "php"
             ],
-            "time": "2019-01-17T12:22:48+00:00"
+            "time": "2019-01-18T15:07:11+00:00"
         },
         {
             "name": "kingga/gui",
@@ -112,16 +112,17 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:kingga/gui.git",
-                "reference": "cab401ef777db19cf168c6b232e72c45c1c94d99"
+                "reference": "a6e869f2db7bfc0fd1d2805313d63d3c1d12d12a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kingga/gui/zipball/cab401ef777db19cf168c6b232e72c45c1c94d99",
-                "reference": "cab401ef777db19cf168c6b232e72c45c1c94d99",
+                "url": "https://api.github.com/repos/kingga/gui/zipball/a6e869f2db7bfc0fd1d2805313d63d3c1d12d12a",
+                "reference": "a6e869f2db7bfc0fd1d2805313d63d3c1d12d12a",
                 "shasum": ""
             },
             "require": {
                 "gabrielrcouto/php-gui": "dev-master",
+                "mustache/mustache": "^2.12",
                 "sabre/xml": "^2.1",
                 "simple-crud/simple-crud": "^6.12",
                 "symfony/console": "^4.2"
@@ -143,7 +144,53 @@
                 "source": "https://github.com/kingga/gui/tree/master",
                 "issues": "https://github.com/kingga/gui/issues"
             },
-            "time": "2019-01-18T11:05:16+00:00"
+            "time": "2019-01-19T00:25:52+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
         },
         {
             "name": "phpoption/phpoption",

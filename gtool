@@ -7,9 +7,11 @@ require_once 'vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use Kingga\Gui\Commands\BuildApplication;
+use Kingga\Gui\Commands\MakeCommand;
 
 $app = new Application;
 
 $app->add(new BuildApplication);
+$app->add(new MakeCommand);
 
 $app->run();
