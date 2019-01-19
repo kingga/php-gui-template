@@ -40,6 +40,7 @@ php gtool make model ModelName "Long Description"
 
 ### M - Model
 **The layer between the application and the database**
+
 To create a model, navigate to the Classes/Models directory and create a new file, ideally this should be named after the table. E.g. AppInfo becomes app_info. Add this basic structure to the file:
 
 ```php
@@ -65,6 +66,7 @@ class FooModel extends Model
 
 ### V - View
 **The design/visible section of the code, e.g. an HTML file**
+
 Views are still a work in progress but they are currently my main priority after other work commitments. To create a basic view, go into the `resources/views` directory and create a new file named `first.view.xml` and fill it with the following content.
 
 ```xml
@@ -83,6 +85,7 @@ $router->render('first');
 
 ### C - Controller
 **Controllers control the flow of the application**
+
 The final piece of the puzzle is the controller; to create a controller navigate to the `Classes/Controllers` folder and add a new file `FirstController.php` and the following content to it.
 
 ```php
@@ -113,6 +116,7 @@ $router->create(function (RouteGroup $group) {
 ```
 
 And then call the route from within the `MainController@main` method.
+
 ***Note: that the main route is the starting point of the application.***
 
 ```php
