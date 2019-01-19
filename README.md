@@ -77,10 +77,13 @@ Views are still a work in progress but they are currently my main priority after
 </Window>
 ```
 
-Then call it using the routers `render` method.
+Then call it using the renderers `render` method.
 
 ```php
-$router->render('first');
+$renderer->render('first');
+
+// Or in a controller.
+$request->getRenderer()->render('first');
 ```
 
 ### C - Controller

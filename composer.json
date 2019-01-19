@@ -18,5 +18,10 @@
         "psr-4": {
             "Classes\\": "Classes/"
         }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+        ]
     }
 }
