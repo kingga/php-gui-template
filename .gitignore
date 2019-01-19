@@ -1,6 +1,7 @@
 composer.phar
 vendor/
 build/
+cache/
 
 .env
 

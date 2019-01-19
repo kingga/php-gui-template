@@ -23,5 +23,8 @@
         "post-autoload-dump": [
             "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
         ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3@dev"
     }
 }

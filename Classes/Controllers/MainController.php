@@ -13,11 +13,18 @@ class MainController
 {
     public function main(Request $request)
     {
-        // ...
+        $request->getRenderer()->render('main', [
+            'info'      => [
+                'Version'       => '1.0.0',
+                'Licence'       => 'MIT',
+                'Author'        => 'Isaac Skelton',
+                'Email'         => 'contact@isaacskelton.com',
+            ],
+        ]);
     }
 
-    public function showInfoModal(Request $request)
+    public function closeApplication(Request &$request)
     {
-        $request->getRenderer()->render('infobox');
+        $request->getApp()->terminate();
     }
 }

@@ -67,7 +67,7 @@ class FooModel extends Model
 ### V - View
 **The design/visible section of the code, e.g. an HTML file**
 
-Views are still a work in progress but they are currently my main priority after other work commitments. To create a basic view, go into the `resources/views` directory and create a new file named `first.view.xml` and fill it with the following content.
+Views are still a work in progress but they are currently my main priority after other work commitments. To create a basic view, go into the `resources/views` directory and create a new file named `first.blade.php` and fill it with the following content.
 
 ```xml
 <use class="Gui\Components\Window"></use>
